@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseTrackerApp.Database\ExpenseTrackerApp.Database.csproj" />
+    <ProjectReference Include="..\ExpenseTrackerApp.Domain\ExpenseTrackerApp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
